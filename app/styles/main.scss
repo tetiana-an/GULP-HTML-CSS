@@ -1,0 +1,1946 @@
+@import "base/fonts";
+@import "base/reset";
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 848px;
+    background-image: url(../images/Layer_1.png);
+    background-size: 100% 100%;
+}
+
+.header-top {
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 36px;
+    float: left;
+}
+
+.logo1 {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.logo2 {
+    background-image: linear-gradient(top, #322539 0%, #745083 100%);
+    background-clip: text;
+    color: rgb(70, 0, 92);
+    font-family: "League Gothic";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    float: right;
+
+}
+
+.menu_ {
+    width: 631px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 171px;
+}
+
+.menu-link1 {
+    list-style: none;
+    float: left;
+}
+
+.home3 {
+    display: none;
+
+}
+
+ul.menu_ a {
+    text-decoration: none;
+    display: block;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 38px;
+}
+
+#home {
+    border-bottom: 2px solid #edbfff;
+}
+
+.menu-link1:hover {
+    border-bottom: 2px solid #edbfff;
+}
+
+
+.menu3 {
+    display: none;
+}
+
+.circle_text2 {
+    display: none;
+}
+
+.header-center {
+    margin-top: 172px;
+    height: 400px;
+    background-image: url(../images/bg_alpha.png);
+}
+
+.header-center_box {
+    height: 400px;
+}
+
+.text {
+    width: 502px;
+    height: 240px;
+    float: left;
+    margin-top: 82px;
+    overflow: hidden;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.text1 {
+    color: #fefefe;
+    font-family: "League Gothic";
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.text2 {
+    color: #edbfff;
+    font-family: "League Gothic";
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.text3 {
+    font-family: "Open Sans Light";
+    font-weight: 300;
+    line-height: 24px;
+    color: #ffffff;
+    letter-spacing: -0.45px;
+    margin-top: 5px
+}
+
+.phone {
+    width: 271px;
+    height: 434px;
+    float: left;
+    margin-left: 115px;
+    position: relative;
+}
+
+.phone1 {
+    width: 130px;
+    height: 268px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 65px;
+}
+
+.phone2 {
+    width: 197px;
+    height: 434px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 77px;
+    margin-top: -15px;
+}
+
+.play1 {
+    position: absolute;
+    z-index: 3;
+    margin-left: 138px;
+    margin-top: 138px;
+}
+
+.play2 {
+    position: absolute;
+    z-index: 4;
+    margin-left: 151px;
+    margin-top: 151.9px;
+}
+
+.play3 {
+    position: absolute;
+    z-index: 7;
+    margin-left: 167px;
+    margin-top: 164px;
+}
+
+.main-top {
+    height: 342px;
+    background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+
+}
+
+.about_our_company {
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_box {
+    width: 273px;
+    height: 190px;
+    margin-top: 75px;
+}
+
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/source_of_icons.png);
+}
+
+.slider {
+    background-position: -55px 0;
+    width: 100px;
+    height: 20px;
+    float: right;
+    margin-right: 160px;
+    margin-top: 60px;
+}
+
+
+.bolt {
+    background-position: -405px -140px;
+    width: 30px;
+    float: left;
+}
+
+.message {
+    background-position: -331px -265px;
+    width: 30px;
+    float: left;
+}
+
+.music {
+    background-position: -486px 0;
+    width: 30px;
+    float: left;
+}
+
+.about_text {
+    width: 223px;
+    height: 190px;
+    color: #ffffff;
+    line-height: 24px;
+    float: right;
+}
+
+.about1 {
+    height: 22px;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about2 {
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 10px;
+    word-break: unset;
+    font-family: "Open Sans Light";
+
+}
+
+.about3 {
+    height: 14px;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 15px;
+
+
+}
+
+.about3_1 {
+    height: 14px;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 15px;
+}
+
+
+.about3_1:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+.main-center {
+    height: 609px;
+    background-color: #f9f9f9;
+}
+
+.main-center_box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.article1 {
+    width: 460px;
+    height: 313px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.coment_all {
+    width: 432px;
+    height: 292px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    background-image: url(../images/Layer_60.png);
+    background-size: 100% 100%;
+    float: right;
+}
+
+.foto {
+    background-position: -4px -501px;
+    width: 60px;
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: 6px;
+}
+
+.zaholovok {
+    height: 22px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "League Gothic";
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 38px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 31px;
+}
+
+#zaholovok {
+    font-variant: small-caps;
+    color: #edbfff;
+
+}
+
+.coment {
+    width: 370px;
+    height: 167px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 38px;
+    margin-left: 38px;
+    overflow: hidden;
+}
+
+.fox10 {
+    background-position: -52px -20px;
+    width: 100px;
+    height: 22px;
+    left: 195px;
+    top: 292px;
+    position: absolute;
+    z-index: 3;
+}
+
+.coment_all2 {
+    width: 436px;
+    height: 261px;
+}
+
+.zaholovok_2 {
+    height: 22px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #edbfff;
+    color: #454545;
+    font-family: "League Gothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 31px;
+    margin-left: 18px;
+}
+
+.coment2 {
+    width: 440px;
+    height: 218px;
+    margin-top: 38px;
+    margin-left: 18px;
+}
+
+.opys {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.circle1 {
+    background-position: -214px -320px;
+    width: 64px;
+    float: left;
+
+}
+
+.circle2 {
+    background-position: -143px -378px;
+    width: 64px;
+    float: left;
+}
+
+.circle3 {
+    background-position: -72px -438px;
+    width: 64px;
+    float: left;
+}
+
+.circle_text {
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: "Open Sans Light";
+}
+
+#circle_text {
+    width: 365px;
+    height: 41px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Open Sans - Extrabold";
+    font-weight: 400;
+
+}
+
+.circle_text_end {
+    float: right;
+    height: 14px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "League Gothic";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.circle_text_end1 {
+    float: right;
+    height: 14px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "League Gothic";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: none;
+}
+
+
+.logos {
+    width: 775px;
+    height: 65px;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+.main-bottom {
+    height: 398px;
+    background-color: #ececec;
+
+}
+
+.main-bottom-text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.article {
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(120, 120, 120);
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    width: 277px;
+    height: 205px;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+#article {
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "League Gothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 1px;
+    margin-bottom: 15px
+}
+
+footer {
+    min-height: 114px;
+    background-image: url(../images/bg_copy.png);
+    background-size: 100% 100%;
+}
+
+.footer {
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu_2 {
+    float: left;
+    width: 528px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+ul.menu_2 a {
+    text-decoration: none;
+    display: block;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.text_footer {
+    float: right;
+    width: 400px;
+    /* background-color: crimson; */
+}
+
+.text_footer1 {
+    height: 13px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 300;
+    float: right;
+}
+
+.text_footer2 {
+    font-family: "Open Sans - Extrabold";
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+@media (max-width: 995px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .header {
+        height: 797px;
+        background-image: url(../images/Layer_1.png);
+        background-size: 100% 100%;
+    }
+
+    .header-top{
+        height: 182px;
+    }
+
+    .logo {
+        height: 36px;
+        float: left;
+        padding-top: 21px;
+    }
+
+    .logo1 {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 36px;
+        float: left;
+    }
+
+    .logo2 {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 36px;
+        float: right;
+    }
+
+    .menu_ {
+        width: 631px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+
+    .menu-link {
+        list-style: none;
+        float: left;
+
+    }
+
+    ul.menu_ a {
+        text-decoration: none;
+        display: block;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    #home {
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .menu-link:hover {
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .header-center {
+        margin-top: 81px;
+        height: 400px;
+    }
+
+    .header-center_box {
+        height: 400px;
+
+    }
+
+    .text {
+        width: 278px;
+        height: 180px;
+        float: left;
+        margin-top: 102px;
+        overflow: hidden;
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 22px;
+
+    }
+
+    .text1 {
+        color: #fefefe;
+        font-family: "League Gothic";
+        font-size: 48px;
+        font-weight: 400;
+    }
+
+    .text2 {
+        color: #edbfff;
+        font-family: "League Gothic";
+        font-size: 24px;
+        font-weight: 400;
+        overflow: hidden;
+        height: 25px;
+        margin-top: 6px;
+    }
+
+    .text3 {
+        font-family: "Open Sans Light";
+        font-weight: 300;
+        line-height: 24px;
+        color: #ffffff;
+        font-size: 16px;
+        letter-spacing: -0.45px;
+    }
+
+    .phone {
+        width: 271px;
+        height: 434px;
+        float: left;
+        margin-left: 133px;
+        position: relative;
+    }
+
+    .phone1 {
+        width: 130px;
+        height: 268px;
+        position: absolute;
+        z-index: 1;
+        margin-top: 65px;
+    }
+
+    .phone2 {
+        width: 197px;
+        height: 434px;
+        position: absolute;
+        z-index: 2;
+        margin-left: 77px;
+        margin-top: -15px;
+    }
+
+    .play1 {
+        position: absolute;
+        z-index: 3;
+        margin-left: 138px;
+        margin-top: 138px;
+    }
+
+    .play2 {
+        position: absolute;
+        z-index: 4;
+        margin-left: 150.5px;
+        margin-top: 150.5px;
+    }
+
+    .play3 {
+        position: absolute;
+        z-index: 7;
+        margin-left: 167px;
+        margin-top: 164px;
+    }
+
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        background-image: url(../images/source_of_icons.png);
+    }
+
+    .slider {
+        background-position: -55px 0;
+        width: 100px;
+        height: 20px;
+        float: right;
+        margin-right: 150px;
+        margin-top: 20px;
+    }
+
+    .main-top {
+        height: 342px;
+        background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+
+    }
+
+    .about_our_company {
+        height: 136px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about_box {
+        width: 210px;
+        height: 201px;
+        margin-top: 79px;
+        overflow: hidden;
+    }
+
+
+    .bolt {
+        background-position: -405px -140px;
+        width: 30px;
+        float: left;
+    }
+
+    .message {
+        background-position: -405px -140px;
+        width: 30px;
+        float: left;
+    }
+
+    .music {
+        background-position: -405px -140px;
+        width: 30px;
+        float: left;
+    }
+
+    .about_text {
+        width: 151px;
+        height: 192px;
+        color: #ffffff;
+        line-height: 24px;
+        float: right;
+    }
+
+    .about1 {
+        height: 18px;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .about2 {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-top: 10px;
+        width: 153px;
+        height: 140px;
+        overflow: hidden;
+    }
+
+    .about3 {
+        height: 14px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        float: right;
+        margin-top: 10px;
+
+    }
+
+    .about3_1 {
+        height: 14px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        float: right;
+        margin-top: 10px;
+    }
+
+
+    .main-center {
+        height: 609px;
+        background-color: #f9f9f9;
+    }
+
+    .article1 {
+        width: 370px;
+        height: 314px;
+        position: relative;
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
+
+
+    .coment_all {
+        width: 320px;
+        height: 272px;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        background-image: url(../images/Layer_11_copy.png);
+        background-size: 100% 100%;
+        float: right;
+        margin-right: 25px;
+    }
+
+    .foto {
+        background-position: -4px -501px;
+        width: 60px;
+        position: absolute;
+        z-index: 2;
+        top: 15px;
+        left: 0;
+    }
+
+    .zaholovok {
+        height: 42px;
+        width: 90px;
+        font-size: 24px;
+        font-weight: 400;
+        margin-left: 34px;
+        line-height: 24px;
+        padding-top: 31px;
+    }
+
+    .coment {
+        width: 248px;
+        height: 140px;
+        margin-top: 38px;
+        margin-left: 34px;
+        overflow: hidden;
+    }
+
+    .fox10 {
+        background-position: -52px -20px;
+        width: 100px;
+        height: 22px;
+        left: 115px;
+        top: 292px;
+        position: absolute;
+        z-index: 3;
+    }
+
+    .coment_all2 {
+        width: 357px;
+        height: 261px;
+
+    }
+
+    .circle_text_end {
+        display: none;
+    }
+
+    .circle_text_end1 {
+        display: block;
+    }
+
+    .zaholovok_2 {
+        margin-left: 0px;
+    }
+
+    .coment2 {
+        width: 340px;
+        height: 218px;
+        margin-top: 38px;
+        margin-left: 0;
+    }
+
+
+    .circle1 {
+        width: 85px;
+    }
+
+    .circle2 {
+        width: 85px;
+    }
+
+    .circle3 {
+        width: 90px;
+    }
+
+    .circle_text {
+        overflow: hidden;
+        height: 43px;
+    }
+
+    .circle_text_end {
+        margin-right: 14px;
+    }
+
+
+    .logos {
+        width: 765px;
+        height: 65px;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+
+    .main-bottom {
+        height: 398px;
+        background-color: #ececec;
+    }
+
+
+
+    .article {
+        width: 205px;
+        height: 205px;
+        overflow: hidden;
+        margin-top: 103px;
+    }
+
+    footer {
+        height: 140px;
+        background-size: cover;
+    }
+
+    .text_footer {
+        float: right;
+        width: 400px;
+        margin-left: 600px;
+    }
+
+    .text_footer1 {
+        height: 13px;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 300;
+        float: right;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 480px;
+        margin: 0 auto;
+    }
+
+    .header {
+        height: 550px;
+        background-image: url(../images/Layer_1.png);
+        background-size: cover;
+        background-position: bottom center;
+    }
+
+
+    .header-top {
+        height: 182px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2vh;
+        position: relative;
+    }
+
+    .logo {
+        height: 36px;
+        float: none;
+        display: inline-block;
+        margin: 0 auto;
+        padding-top: 0px;
+
+    }
+
+    .menu_ {
+        display: none;
+    }
+
+    .logo1 {
+        line-height: 33.72px;
+        float: left;
+
+    }
+
+    .logo2 {
+        line-height: 33.72px;
+        float: left;
+        padding-left: 4px;
+    }
+
+
+    .home {
+        width: 252px;
+        height: 50px;
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .menu3 {
+        display: block;
+        width: 252px;
+        height: 50px;
+        z-index: 7;
+        position: absolute;
+
+    }
+
+    .menu-link3 {
+        width: 252px;
+        height: 50px;
+        list-style: none;
+        display: block;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+    }
+
+
+    ul.menu3 a {
+        display: block;
+        text-align: center;
+        color: #ffffff;
+        font-family: "League Gothic";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 50px;
+        text-transform: uppercase;
+        background-color: #35273d;
+        opacity: 0.9;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+        z-index: 7;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        text-decoration-color: #edbfff;
+    }
+
+    .menu-link3_2 {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    ul.menu3>li>ul {
+        display: none;
+        z-index: 7;
+
+    }
+
+    ul.menu3>li:hover>ul {
+        display: block;
+        z-index: 7;
+    }
+
+    ul.menu3>li:hover>ul>li {
+        width: 252px;
+        list-style: none;
+        box-shadow: inset 0 -1px 0 rgba(105, 82, 114, 0.59);
+        background-color: #35273d;
+        opacity: 0.9;
+        z-index: 7;
+    }
+
+    ul.menu3>li:hover>ul>li>a {
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+        z-index: 77;
+    }
+
+    ul.menu3>li:hover>ul>li>a:hover {
+        color: #ffffff;
+        font-size: 24px;
+        border-bottom: 2px solid #edbfff;
+        background-color: #2b2231;
+        opacity: 0.9;
+        z-index: 77;
+
+    }
+
+    .header-center {
+        margin-top: 16px;
+        height: 246px;
+        background-image: url(../images/bg_alpha.png);
+    }
+
+    .header-center_box {
+        height: 246px;
+        position: relative;
+    }
+
+    .text {
+        width: 205px;
+        height: 60px;
+        float: left;
+        margin-top: 96px;
+        font-weight: 400;
+        margin-left: 22px;
+    }
+
+    .text1 {
+        color: #fefefe;
+        font-family: "League Gothic";
+        font-size: 36px;
+    }
+
+    .text2 {
+        color: #edbfff;
+        font-family: "League Gothic";
+        font-size: 18px;
+        font-weight: 400;
+        height: 18px;
+
+    }
+
+    .text3 {
+        display: none;
+    }
+
+    .phone {
+        width: 192px;
+        height: 304px;
+        float: left;
+        margin-left: 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    .phone1 {
+        width: 77px;
+        height: 152px;
+        position: absolute;
+        z-index: 2;
+        margin-top: 65px;
+        margin-left: 50px
+    }
+
+    .phone2 {
+        width: 140px;
+        height: 304px;
+        position: absolute;
+        margin-left: 95px;
+        margin-top: -15px;
+    }
+
+    .play1 {
+        position: absolute;
+        z-index: 3;
+        margin-left: 140px;
+        margin-top: 92px;
+        font-size: 10px;
+        width: 52px;
+        height: 51px;
+    }
+
+    .play2 {
+        position: absolute;
+        z-index: 4;
+        margin-left: 150.5px;
+        margin-top: 101.5px;
+        width: 31px;
+        height: 30px;
+    }
+
+    .play3 {
+        position: absolute;
+        z-index: 7;
+        margin-left: 160px;
+        margin-top: 108px;
+        width: 15px;
+        height: 19px;
+    }
+
+    .slider {
+        background-position: -55px 0;
+        width: 100px;
+        height: 20px;
+        float: right;
+        margin-right: 163px;
+        margin-top: -35px;
+    }
+
+    .main-top {
+        height: 598px;
+        background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+    }
+
+    .about_our_company {
+        height: 550px;
+        display: block;
+        padding-top: 79px;
+    }
+
+    .about_box {
+        width: 429px;
+        height: 137px;
+        margin: 0 23px;
+        margin-bottom: 29px;
+        overflow: hidden;
+        z-index: 7;
+        display: block;
+        float: left;
+
+    }
+
+
+    .about_text {
+        width: 88%;
+        height: 102px;
+        color: #ffffff;
+        line-height: 24px;
+        float: right;
+    }
+
+    .about1 {
+        height: 18px;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 0 #0f1518;
+    }
+
+    .about2 {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-top: 12px;
+        height: 75px;
+        width: 100%;
+        float: right;
+        overflow: hidden;
+
+    }
+
+    .about3 {
+        height: 14px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        float: right;
+        margin-top: 10px;
+
+    }
+
+    .about3_1 {
+        height: 14px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        float: right;
+        margin-top: 10px;
+    }
+
+
+    .main-center {
+        height: 1020px;
+        background-color: #f9f9f9;
+    }
+
+    .main-center_box {
+        display: block;
+    }
+
+    .article1 {
+        width: 100%;
+        height: 314px;
+        position: relative;
+        margin: 0;
+        margin-bottom: 76px;
+    }
+
+    .coment_all {
+        width: 420px;
+        height: 274px;
+        position: relative;
+        right: 0;
+        z-index: 1;
+        background-image: url(../images/Layer_11_copy.png);
+        background-size: 100% 100%;
+        float: right;
+        margin: 0 23px;
+        margin-top: 70px;
+
+    }
+
+    .foto {
+        background-position: -4px -501px;
+        width: 60px;
+        position: absolute;
+        z-index: 2;
+        top: 75px;
+        left: 15px;
+    }
+
+    .zaholovok {
+        height: 22px;
+        width: 90%;
+        font-size: 30px;
+        font-weight: 400;
+        margin-left: 38px;
+        line-height: 24px;
+        padding-top: 31px;
+    }
+
+    .coment {
+        width: 346px;
+        height: 165px;
+        margin-top: 38px;
+        margin-left: 40px;
+        overflow: hidden;
+        font-size: 16px;
+    }
+
+    .fox10 {
+        background-position: -54px -20px;
+        width: 100px;
+        height: 23px;
+        left: 198px;
+        top: 360px;
+        position: absolute;
+        z-index: 3;
+    }
+
+    .coment_all2 {
+        width: 337px;
+        height: 267px;
+        margin: 0 auto;
+        padding-left: 5px;
+        padding-top: 35px;
+    }
+
+    .zaholovok_2 {
+        margin-left: 0px;
+        width: 100%;
+        height: 22px;
+        padding-top: 5px;
+    }
+
+    .coment2 {
+        width: 337px;
+        height: 224px;
+        margin-top: 21px;
+        margin-left: 0;
+        overflow: hidden;
+    }
+
+    .circle1 {
+        width: 85px;
+    }
+
+    .circle2 {
+        width: 80px;
+    }
+
+    .circle3 {
+        width: 90px;
+    }
+
+    .circle_text {
+        overflow: hidden;
+        height: 49px;
+    }
+
+    .circle_text_end {
+        display: none;
+
+    }
+
+    .circle_text_end1 {
+        float: right;
+        height: 14px;
+        text-shadow: 1px 1px 0 #ffffff;
+        color: #454545;
+        font-family: "League Gothic";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+        display: block;
+    }
+
+
+    .logos {
+        display: none;
+    }
+
+    .logos_480 {
+        width: 345px;
+        height: 154px;
+        background-image: url(../images/logos480.png);
+        background-size: 100% 100%;
+        margin: 37px auto;
+    }
+
+
+    .main-bottom {
+        height: 670px;
+        background-color: #ececec;
+        display: flex;
+
+    }
+
+    .main-bottom-text {
+        height: 498px;
+        width: 440px;
+        flex-direction: column;
+        margin-top: 81px;
+        margin-left: 23px;
+    }
+
+    .article {
+        width: 440px;
+        height: 132px;
+        overflow: hidden;
+        margin-top: 0;
+        display: block;
+        text-shadow: 1px 1px 0 #ffffff;
+        color: #787878;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+
+    }
+
+    #article {
+        width: 130px;
+        height: 18px;
+        text-shadow: 1px 1px 0 #ffffff;
+        color: #454545;
+        font-family: "League Gothic";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+
+    footer {
+        height: 170px;
+        background-size: cover;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .menu_2 {
+        float: left;
+        width: 438px;
+        height: 28px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 48px;
+    }
+
+    .menu {
+        width: 480px;
+        margin-left: 23px;
+
+    }
+
+    ul.menu_2 a {
+        text-decoration: none;
+        display: block;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+        color: #ffffff;
+        font-family: "League Gothic";
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 28px;
+
+    }
+
+    .text_footer {
+        height: 13px;
+        float: none;
+        width: 140px;
+        margin: 40px auto;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 300;
+
+    }
+
+    .text_footer1 {
+        margin: 0 auto;
+        font-family: "Open Sans Light";
+        font-weight: 300;
+    }
+
+    .text_footer2 {
+        font-family: "Open Sans - Extrabold";
+        font-weight: 400;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .container {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .header {
+        height: 516px;
+        background-image: url(../images/Layer_1.png);
+        background-size: 100% 100%;
+    }
+
+    .header-top {
+        height: 182px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2vh;
+        position: relative;
+    }
+
+    .logo {
+        height: 36px;
+        float: none;
+        display: inline-block;
+        margin: 0 auto;
+        padding-right: 84px;
+        padding-top: 12px;
+
+    }
+
+    .menu_ {
+        display: none;
+    }
+
+    .logo1 {
+        line-height: 33.72px;
+
+        margin-left: -100px;
+    }
+
+    .logo2 {
+        line-height: 33.72px;
+        float: left;
+        padding-left: 0;
+    }
+
+    .home {
+        display: none;
+
+    }
+
+    .home3 {
+        width: 52px;
+        height: 50px;
+        position: relative;
+        margin-top: 39px;
+        margin-right: 180px;
+        display: block;
+    }
+
+    .menu3_2 {
+        display: block;
+        width: 52px;
+        height: 50px;
+        z-index: 7;
+        position: absolute;
+
+    }
+
+    .menu-link3_2 {
+        width: 52px;
+        height: 50px;
+        float: left;
+        list-style: none;
+        display: block;
+        background-color: none;
+
+    }
+
+
+    ul.menu3_2 a {
+        display: block;
+        text-align: center;
+        color: #ffffff;
+        font-family: "League Gothic";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 50px;
+        text-decoration: none;
+    }
+
+    #menu-link3 {
+        text-decoration: none;
+        border-bottom: 2px solid #edbfff;
+    }
+
+
+    ul.menu3_2>li>ul {
+        display: none;
+        z-index: 7;
+
+    }
+
+    ul.menu3_2>li:hover>ul {
+        display: block;
+        z-index: 7;
+    }
+
+    ul.menu3_2>li:hover>ul>li {
+        width: 52px;
+        list-style: none;
+        z-index: 7;
+
+    }
+
+    ul.menu3_2>li:hover>ul>li>a {
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+        z-index: 77;
+    }
+
+    ul.menu3_2>li:hover>ul>li>a:hover {
+        font-size: 24px;
+        z-index: 77;
+
+    }
+
+
+    .header-center {
+        margin-top: 16px;
+        height: 246px;
+        background-image: none;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .text {
+        margin-left: 70px;
+    }
+
+
+    .slider {
+        background-position: -55px 0;
+        width: 100px;
+        height: 20px;
+        float: right;
+        margin-right: 100px;
+        margin-top: 125px;
+    }
+
+    .main-top {
+        height: 598px;
+        background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+
+    }
+
+
+    .about_our_company {
+        height: 541px;
+        display: block;
+        padding-top: 72px;
+
+    }
+
+    .about_box {
+        width: 270px;
+        height: 137px;
+        margin: 0 25px;
+        margin-bottom: 29px;
+    }
+
+    .about_text {
+        width: 83%;
+        height: 102px;
+        color: #ffffff;
+        line-height: 24px;
+        float: right;
+    }
+
+    .main-center {
+        height: 1212px;
+        background-color: #f9f9f9;
+    }
+
+    .main-center_box {
+        display: block;
+
+    }
+
+    .article1 {
+        width: 100%;
+        height: 314px;
+        position: relative;
+        margin-bottom: 51px;
+
+    }
+
+    .coment_all {
+        width: 258px;
+        height: 274px;
+        position: relative;
+        right: 0;
+        z-index: 1;
+        background-image: url(../images/Layer_11_copy.png);
+        background-size: 100% 100%;
+        float: right;
+        margin: 0 25px;
+        margin-top: 70px;
+    }
+
+    .foto {
+        background-position: -4px -501px;
+        width: 60px;
+        position: absolute;
+        z-index: 2;
+        top: 85px;
+        left: 15px;
+    }
+
+    .zaholovok {
+        height: 42px;
+        width: 90px;
+        font-size: 24px;
+        margin-left: 38px;
+        line-height: 24px;
+        padding-top: 31px;
+    }
+
+    .coment {
+        width: 180px;
+        height: 168px;
+        margin-top: 38px;
+        margin-left: 40px;
+        overflow: hidden;
+        font-size: 16px;
+    }
+
+    .fox10 {
+        background-position: -54px -20px;
+        width: 100px;
+        height: 23px;
+        left: 122px;
+        top: 365px;
+        position: absolute;
+        z-index: 3;
+    }
+
+    .coment_all2 {
+        width: 100%;
+        height: 281px;
+        padding-top: 60px;
+
+    }
+
+    .zaholovok_2 {
+        margin-left: 0px;
+        width: 100%;
+        height: 22px;
+        padding-top: 2px;
+        font-size: 30px;
+    }
+
+    .coment2 {
+        width: 100%;
+        height: 295px;
+        margin-top: 21px;
+        margin-left: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        font-size: 16px;
+    }
+
+
+    .circle1 {
+        width: 80px;
+    }
+
+    .circle2 {
+        width: 80px;
+    }
+
+    .circle3 {
+        width: 80px;
+    }
+
+    .circle_text {
+
+        display: none;
+    }
+
+    #circle_text {
+
+        display: none;
+
+    }
+
+    .circle_text2 {
+        text-shadow: 1px 1px 0 #ffffff;
+        color: #454545;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        font-family: "Open Sans Light";
+        width: 340px;
+        display: block;
+    }
+
+    #circle_text2 {
+        width: 320px;
+        height: 41px;
+        text-shadow: 1px 1px 0 #ffffff;
+        color: #454545;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Open Sans - Extrabold";
+        font-weight: 400;
+
+    }
+
+    .circle_text_end {
+        margin-right: 0;
+    }
+
+
+    .logos {
+        display: none;
+    }
+
+    .logos_480 {
+        width: 237px;
+        height: 294px;
+        background-image: url(../images/3-layers.png);
+        background-size: 100% 100%;
+        margin: 52px auto 72px auto;
+    }
+
+
+    .main-bottom {
+        display: none;
+    }
+
+    footer {
+        height: 150px;
+        background-size: cover;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .menu_2 {
+        display: none;
+    }
+
+
+    .text_footer {
+        height: 13px;
+        float: none;
+        width: 140px;
+        margin: 40px auto;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 300;
+
+    }
+
+    .text_footer1 {
+        margin: 0 auto;
+        font-family: "Open Sans Light";
+        font-weight: 300;
+    }
+
+    .text_footer2 {
+        font-family: "Open Sans - Extrabold";
+        font-weight: 400;
+    }
+}
